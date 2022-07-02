@@ -83,6 +83,9 @@ function App() {
         </a>
         .
       </p>
+      <p>
+        Realizzato da <a href="https://mb.maletta.space/">Sbax</a>.
+      </p>
     </main>
   );
 }
