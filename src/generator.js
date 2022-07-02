@@ -138,7 +138,7 @@ export const generateCharacter = () => {
     armor,
     weapon: getWeapon(),
     gearToolsAndTrinkets,
-    bonus: bonus.name ? bonus.name : bonus,
+    bonus: bonus.armorValue ? bonus.name : bonus,
     startingSupplies: [
       "Tre giorni di razioni",
       "Una torcia",

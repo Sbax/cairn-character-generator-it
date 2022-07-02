@@ -43,11 +43,12 @@ function App() {
         </div>
         <div>
           {(() => {
+            console.log(character.bonus);
             if (character.bonus.name) {
               return (
                 <>
-                  <b>divbro di Incantesimi:</b> {character.bonus.name},{" "}
-                  {character.bonus.description.toLowerCase()}`
+                  <b>Libro di Incantesimi:</b> {character.bonus.name},{" "}
+                  {character.bonus.description.toLowerCase()}
                 </>
               );
             }
