@@ -43,7 +43,6 @@ function App() {
         </div>
         <div>
           {(() => {
-            console.log(character.bonus);
             if (character.bonus.name) {
               return (
                 <>
