@@ -1,0 +1,790 @@
+{
+  "firstNames": {
+    "males": [
+      "Arwel",
+      "Bevan",
+      "Boroth",
+      "Borrid",
+      "Breagle",
+      "Breglor",
+      "Canhoreal",
+      "Emrys",
+      "Ethex",
+      "Gringle",
+      "Grinwit",
+      "Gruwid",
+      "Gruwth",
+      "Gwestin",
+      "Mannog",
+      "Melnax",
+      "Orthax",
+      "Triunein",
+      "Wenlan",
+      "Yirmeor"
+    ],
+    "females": [
+      "Agune",
+      "Beatrice",
+      "Breagan",
+      "Bronwyn",
+      "Cannora",
+      "Drelil",
+      "Elgile",
+      "Esme",
+      "Griya",
+      "Henaine",
+      "Lirann",
+      "Lirathil",
+      "Lisabeth",
+      "Moralil",
+      "Morgwen",
+      "Sybil",
+      "Theune",
+      "Wenain",
+      "Ygwal",
+      "Yslen"
+    ]
+  },
+  "lastNames": [
+    "Abernathy",
+    "Addercap",
+    "Burl",
+    "Candlewick",
+    "Cormick",
+    "Crumwaller",
+    "Dunswallow",
+    "Getri",
+    "Glass",
+    "Harkness",
+    "Harper",
+    "Loomer",
+    "Malksmilk",
+    "Smythe",
+    "Sunderman",
+    "Swinney",
+    "Thatcher",
+    "Tolmen",
+    "Weaver",
+    "Wolder"
+  ],
+  "backgrounds": [
+    "Alchimista",
+    "Artista",
+    "Becchino",
+    "Borseggiatore",
+    "Cacciatore",
+    "Carpentiere",
+    "Chierico",
+    "Contrabbandiere",
+    "Erborista",
+    "Fabbro",
+    "Fuorilegge",
+    "Macellaio",
+    "Mago",
+    "Mercante",
+    "Mercenario",
+    "Minatore",
+    "Ranger",
+    "Scassinatore",
+    "Scommettitore",
+    "Servitore"
+  ],
+  "traits": {
+    "physique": [
+      "Atletico",
+      "Basso",
+      "Corpulento",
+      "Gracile",
+      "Imponente",
+      "Longilineo",
+      "Massiccio",
+      "Muscoloso",
+      "Robusto",
+      "Statuario"
+    ],
+    "skin": [
+      "Abbronzata",
+      "Butterata",
+      "Flaccida",
+      "Liscia",
+      "Morbida",
+      "Rosea",
+      "Scura",
+      "Segnata",
+      "Tatuata",
+      "Con una voglia"
+    ],
+    "hair": [
+      "sei calvo",
+      "i capelli crespi",
+      "i capelli grassi",
+      "i capelli intrecciati",
+      "i capelli lunghi",
+      "i capelli mossi",
+      "i capelli ricci",
+      "i capelli sparsi",
+      "i capelli sporchi",
+      "i capelli voluminosi"
+    ],
+    "face": [
+      "Allungata",
+      "Appuntita",
+      "Cesellata",
+      "da Topo",
+      "Infossata",
+      "Ossuta",
+      "Pallida",
+      "Perfetta",
+      "Quadrata",
+      "Rotta"
+    ],
+    "speech": [
+      "Balbettante",
+      "Bisbigliante",
+      "Formale",
+      "Greve",
+      "Misteriosa",
+      "Monotona",
+      "Precisa",
+      "Profonda",
+      "Schietta",
+      "Stridula"
+    ],
+    "clothing": [
+      "una livrea",
+      "vestiti antichi",
+      "vestiti insanguinati",
+      "vestiti eleganti",
+      "vestiti sporchi",
+      "vestiti esotici",
+      "vestiti logori",
+      "vestiti sgargianti",
+      "vestiti fediti",
+      "vestiti sudici"
+    ],
+    "virtue": [
+      "Ambizioso",
+      "Cauto",
+      "Coraggioso",
+      "Disciplinato",
+      "Socievole",
+      "Onorevole",
+      "Umile",
+      "Compassionevole",
+      "Sereno",
+      "Tollerante"
+    ],
+    "vice": [
+      "Aggressivo",
+      "Avido",
+      "Bugiardo",
+      "Nervoso",
+      "Pigro",
+      "Rude",
+      "Scorbutico",
+      "Vanitoso",
+      "Vendicativo",
+      "Vile"
+    ],
+    "reputation": [
+      "Ambizioso",
+      "Eccentrico",
+      "un fannullone",
+      "un intrattenitore",
+      "Onesto",
+      "Pericoloso",
+      "Ripugnante",
+      "Rispettato",
+      "Saggio",
+      "uno zoticone"
+    ],
+    "misfortunes": [
+      "Abbandonato",
+      "Assuefatto",
+      "Condannato",
+      "Declassato",
+      "Esiliato",
+      "Maledetto",
+      "Ricattato",
+      "Ripudiato",
+      "Screditato",
+      "Truffato"
+    ]
+  },
+  "equipment": {
+    "armor": [
+      {
+        "value": 0,
+        "name": "Nessuna armatura",
+        "armorValue": 0
+      },
+      {
+        "value": 4,
+        "name": "Brigantina (1 Armatura, ingombrante)",
+        "armorValue": 1
+      },
+      {
+        "value": 15,
+        "name": "Cotta di Maglia (2 Armatura, ingombrante)",
+        "armorValue": 2
+      },
+      {
+        "value": 20,
+        "name": "Piastre (3 Armatura, ingombrante)",
+        "armorValue": 3
+      }
+    ],
+    "helmetsAndShields": [
+      {
+        "value": 0,
+        "name": "nessun elmo o scudo",
+        "armorValue": 0
+      },
+      {
+        "value": 14,
+        "name": "Elmo (+1 Armatura)",
+        "armorValue": 1
+      },
+      {
+        "value": 17,
+        "name": "Scudo (+1 Armatura)",
+        "armorValue": 1
+      },
+      {
+        "value": 20,
+        "name": "Elmo (+1 Armatura) e Scudo (+1 Armatura)",
+        "armorValue": 2
+      }
+    ],
+    "weapons": [
+      {
+        "value": 0,
+        "options": [
+          "Pugnale (d6 danno)",
+          "Randello (d6 danno)",
+          "Bastone (d6 danno)"
+        ]
+      },
+      {
+        "value": 6,
+        "options": [
+          "Spada (d8 danno)",
+          "Mazza (d8 danno)",
+          "Ascia (d8 danno)"
+        ]
+      },
+      {
+        "value": 15,
+        "options": [
+          "Arco lungo (d8 danno, ingombrante)",
+          "Balestra (d8 danno, ingombrante)",
+          "Fionda (d4 danno)"
+        ]
+      },
+      {
+        "value": 20,
+        "options": [
+          "Alabarda (d10 danno, ingombrante)",
+          "Martello da Guerra (d10 danno, ingombrante)",
+          "Ascia da Guerra (d10 danno, ingombrante)"
+        ]
+      }
+    ],
+    "expeditionaryGear": [
+      "Sacca d'Aria",
+      "Antitossina",
+      "Carretto (+4 slot, ingombrante)",
+      "Catena (3m)",
+      "Bastone da rabdomante",
+      "Olio di fuoco",
+      "Rampino",
+      "Sacco grande",
+      "Trappola grande",
+      "Grimaldelli",
+      "Manette",
+      "Piccone",
+      "Asta (3m)",
+      "Carrucola",
+      "Repellente",
+      "Corda (7,5m)",
+      "Amuleto",
+      "Cannocchiale",
+      "Acciarino",
+      "Aconito"
+    ],
+    "tools": [
+      "Soffietto",
+      "Secchio",
+      "Pinze",
+      "Gessetto",
+      "Cesello",
+      "Pentole",
+      "Piede di Porco",
+      "Trapano (manuale)",
+      "Canna da pesca",
+      "Colla",
+      "Grasso",
+      "Martello",
+      "Clessidrea",
+      "Lima metallica",
+      "Chiodi",
+      "Rete (7,5m)",
+      "Sega (7,5m)",
+      "Sigillante (7,5m)",
+      "Pala (7,5m)",
+      "Pinze (7,5m)"
+    ],
+    "trinkets": [
+      "Bottiglia",
+      "Mazzo di carte",
+      "Set di dadi",
+      "Trucchi facciali",
+      "Gioielli falsi",
+      "Corno",
+      "Incenso",
+      "Strumento musicale",
+      "Lente",
+      "Biglie",
+      "Specchio",
+      "Profumo",
+      "Pennino e inchiostro",
+      "Pacchetto di sale",
+      "Campanella",
+      "Sapone (7,5m)",
+      "Spugna (7,5m)",
+      "Vaso di pece (7,5m)",
+      "Spago (7,5m)",
+      "Fischietto (7,5m)"
+    ],
+    "bonus": [
+      {
+        "value": 0,
+        "options": [
+          "tools",
+          "trinkets"
+        ]
+      },
+      {
+        "options": [
+          "expeditionaryGear"
+        ],
+        "value": 6
+      },
+      {
+        "options": [
+          "weapons",
+          "armor"
+        ],
+        "value": 14
+      },
+      {
+        "options": [
+          "spellbooks"
+        ],
+        "value": 18
+      }
+    ],
+    "spellbooks": [
+      {
+        "name": "Adesione",
+        "description": "Un oggetto è coperto di melma estremamente appiccicosa."
+      },
+      {
+        "name": "Affascinare",
+        "description": "Una creatura che puoi vedere ti tratta come un amico."
+      },
+      {
+        "name": "Ancora",
+        "description": "Un filo robusto spunta dalle tue braccia, fissandosi a due punti nel raggio di metri su ogni lato."
+      },
+      {
+        "name": "Animare i Morti",
+        "description": "Uno scheletro emerge dalla terra per servirti. Sono incredibilmente stupidi e possono solo obbedire a ordini semplici."
+      },
+      {
+        "name": "Animare lo Spirito",
+        "description": "Lo spirito di un cadavere vicino si manifesta e risponderà a 1 domanda."
+      },
+      {
+        "name": "Animare Oggetto",
+        "description": "Un oggetto obbedisce ai tuoi comandi al meglio delle sue possibilità."
+      },
+      {
+        "name": "Antropomorfismo",
+        "description": "Un animale ottiene l'intelligenza umana o l'aspetto umano per un giorno."
+      },
+      {
+        "name": "Aria Liquida",
+        "description": "L'aria attorno a te rende possibile nuotarci dentro."
+      },
+      {
+        "name": "Ascoltare i Sussurri",
+        "description": "Si possono udire chiaramente suoni deboli."
+      },
+      {
+        "name": "Assordare",
+        "description": "Tutte le creature vicine sono assordate."
+      },
+      {
+        "name": "Attrarre",
+        "description": "Due oggetti sono fortemente attratti magneticamente l'uno dall'altro se si trovano a pochi metri."
+      },
+      {
+        "name": "Avidità",
+        "description": "Una creatura sviluppa il desiderio irrefrenabile di possedere un oggetto visibile a tua scelta."
+      },
+      {
+        "name": "Bagliore",
+        "description": "Una sfera luminosa di energia proietta una scia di luce nel cielo, rivelando la tua posizione ad amici o nemici."
+      },
+      {
+        "name": "Balzo",
+        "description": "Salti in alto fino a 3 metri, una volta."
+      },
+      {
+        "name": "Blaterare",
+        "description": "Una creatura deve ripetere ad alta voce e chiaramente tutto ciò che pensi, altrimenti è muta."
+      },
+      {
+        "name": "Boscaglia",
+        "description": "Una boscaglia di alberi e cespugli densi fino a 15 metri di larghezza spunta all'improvviso."
+      },
+      {
+        "name": "Bussare",
+        "description": "Una serratura ordinaria o magica nelle vicinanze si sblocca rumorosamente."
+      },
+      {
+        "name": "Camuffamento",
+        "description": "Puoi alterare l'aspetto di un personaggio a volontà, purché rimanga umanoide. I tentativi di duplicare altri personaggi appariranno strani."
+      },
+      {
+        "name": "Comando",
+        "description": "Un bersaglio obbedisce a un singolo comando di tre parole che non lo danneggia."
+      },
+      {
+        "name": "Comprensione",
+        "description": "Diventi fluente in tutte le lingue per un breve periodo."
+      },
+      {
+        "name": "Confusione",
+        "description": "Una creatura a tua scelta non è in grado di formare nuovi ricordi a breve termine per la durata dell'incantesimo."
+      },
+      {
+        "name": "Congegno",
+        "description": "Una versione primitiva di uno strumento o di un oggetto disegnato appare davanti a voi e scompare dopo poco tempo."
+      },
+      {
+        "name": "Cono di Schiuma",
+        "description": "La schiuma densa spruzza dalla tua mano, ricoprendo il bersaglio."
+      },
+      {
+        "name": "Controllare il Tempo",
+        "description": "All'interno di una bolla di 15 metri il tempo rallenta o aumenta del 10% per 30 secondi."
+      },
+      {
+        "name": "Controllare Piante",
+        "description": "Le piante e gli alberi vicini ti obbediscono e acquisiscono la capacità di muoversi a passo lento."
+      },
+      {
+        "name": "Controllare Tempo Atmosferico",
+        "description": "Puoi alterare il tipo di condizione atmosferica a tuo piacimento, ma non lo controlli in altro modo."
+      },
+      {
+        "name": "Cura Ferite",
+        "description": "Ristora 1d4 FOR al giorno a una creatura che puoi toccare."
+      },
+      {
+        "name": "Dislocare",
+        "description": "Un oggetto sembra essere fino a 45m dalla sua posizione reale."
+      },
+      {
+        "name": "Divinazione",
+        "description": "Puoi vedere attraverso gli occhi di una creatura che hai toccato prima."
+      },
+      {
+        "name": "Elasticità",
+        "description": "Il tuo corpo può allungarsi fino a 3 metri."
+      },
+      {
+        "name": "Esca Bersaglio",
+        "description": "Un oggetto che tocchi diventa il bersaglio di qualsiasi incantesimo vicino."
+      },
+      {
+        "name": "Esca Fiore",
+        "description": "Una pianta spunta dal terreno ed emana l'odore della carne in decomposizione."
+      },
+      {
+        "name": "Evoca Cubo",
+        "description": "Una volta al secondo puoi evocare o bandire un cubo di terra largo 1 metro. I nuovi cubi devono essere attaccati alla terra o ad altri cubi."
+      },
+      {
+        "name": "Evoca Idolo",
+        "description": "Una statua di pietra scolpita delle dimensioni di un mulo emerge dal terreno."
+      },
+      {
+        "name": "Fiuto",
+        "description": "Si possono sentire anche le più deboli tracce di odore."
+      },
+      {
+        "name": "Fobia",
+        "description": "Una creatura vicina diventa terrorizzata da un oggetto a tua scelta."
+      },
+      {
+        "name": "Forma Bestiale",
+        "description": "Tu e i tuoi averi vi trasformate in un animale comune."
+      },
+      {
+        "name": "Forma di Fumo",
+        "description": "Il tuo corpo diventa fumo vivente che puoi controllare."
+      },
+      {
+        "name": "Forma Melmosa",
+        "description": "Diventi una gelatina vivente."
+      },
+      {
+        "name": "Fossa",
+        "description": "Nel terreno si apre una fossa larga 3 metri e profonda 3 metri."
+      },
+      {
+        "name": "Frenesia",
+        "description": "Una creatura vicina esplode in una frenesia di violenza."
+      },
+      {
+        "name": "Gazza",
+        "description": "Un oggetto visibile si teletrasporta nelle tue mani."
+      },
+      {
+        "name": "Identifica Proprietario",
+        "description": "Sull'oggetto che tocchi appaiono delle lettere che indicano il nome dei proprietari dell'oggetto, se ce ne sono."
+      },
+      {
+        "name": "Illuminare",
+        "description": "Una luce fluttuante si muove al tuo comando."
+      },
+      {
+        "name": "Illusione sonora",
+        "description": "Crei dei suoni illusori che sembrano provenire da una direzione a tua scelta."
+      },
+      {
+        "name": "Illusione visiva",
+        "description": "Appare un'illusione silenziosa, immobile e grande come una stanza, a tua scelta."
+      },
+      {
+        "name": "Immagine speculare",
+        "description": "Appare un tuo duplicato illusorio sotto il tuo controllo."
+      },
+      {
+        "name": "Impulso primordiale",
+        "description": "Una creatura si evolve rapidamente in una versione futura della sua specie."
+      },
+      {
+        "name": "Individuazione del Magico",
+        "description": "Puoi vedere o sentire le aure magiche vicine."
+      },
+      {
+        "name": "Inversione di gravità",
+        "description": "Puoi cambiare la direzione della gravità, ma solo per te."
+      },
+      {
+        "name": "Ipnotizzare",
+        "description": "Una creatura entra in trance e risponderà sinceramente a una domanda con un sì o un no."
+      },
+      {
+        "name": "Lama Incantata",
+        "description": "Una lama rotante vola dal tuo petto, eliminando qualsiasi materiale vegetale sul suo cammino. A parte questo, è innocua."
+      },
+      {
+        "name": "Legame Invisibile",
+        "description": "Due oggetti entro 3 metri l'uno dall'altro non possono essere spostati a più di 3 metri di distanza."
+      },
+      {
+        "name": "Leggere la Mente",
+        "description": "Puoi sentire i pensieri superficiali delle creature vicine."
+      },
+      {
+        "name": "Levitazione",
+        "description": "Un oggetto che si libra, senza attrito, a 60 cm dal suolo. Può sostenere fino a un umanoide."
+      },
+      {
+        "name": "Mania delle biglie",
+        "description": "Le tue tasche sono piene di biglie e si riempiono nuovamente ogni secondo."
+      },
+      {
+        "name": "Maniero",
+        "description": "Un cottage robusto e arredato appare per ore. Puoi permettere e proibire l'ingresso ad esso a volontà."
+      },
+      {
+        "name": "Marchio del Mago",
+        "description": "Il tuo dito può lanciare un flusso di vernice color ulfire. La vernice è visibile solo a te e può essere vista a qualsiasi distanza, anche attraverso oggetti solidi"
+      },
+      {
+        "name": "Mascherata",
+        "description": "L'aspetto e la voce di un personaggio diventano identici a quelli di un personaggio che si tocca."
+      },
+      {
+        "name": "Miniaturizzare",
+        "description": "Una creatura che tocchi si rimpicciolisce fino alle dimensioni di un topo."
+      },
+      {
+        "name": "Movimenti del Ragno",
+        "description": "Puoi arrampicarti sulle superfici come un ragno."
+      },
+      {
+        "name": "Multibraccio",
+        "description": "Guadagni temporaneamente un braccio in più."
+      },
+      {
+        "name": "Muro Elementale",
+        "description": "Un muro di ghiaccio o di fuoco lungo 15 metri e alto 3 metri si innalza dal terreno."
+      },
+      {
+        "name": "Nube di Nebbia",
+        "description": "Una densa nebbia si diffonde da te."
+      },
+      {
+        "name": "Occhio Arcano",
+        "description": "Puoi vedere attraverso un bulbo oculare magico galleggiante che vola in giro al tuo comando."
+      },
+      {
+        "name": "Odio",
+        "description": "Una creatura sviluppa un odio profondo verso un'altra creatura o un gruppo e desidera distruggerli."
+      },
+      {
+        "name": "Oggettivare",
+        "description": "Diventi un qualsiasi oggetto inanimato tra le dimensioni di un pianoforte a coda e una mela."
+      },
+      {
+        "name": "Ordinare",
+        "description": "Gli oggetti inanimati si ordinano secondo le categorie che hai impostato."
+      },
+      {
+        "name": "Pacificare",
+        "description": "Una creatura vicina a te ha un'avversione per la violenza."
+      },
+      {
+        "name": "Passaspecchi",
+        "description": "Uno specchio diventa un passaggio per un altro specchio in cui hai guardato oggi."
+      },
+      {
+        "name": "Percepire Oggetto",
+        "description": "Scegli un tipo di oggetto (chiave, oro, freccia, brocca, ecc.). Puoi avvertire l'esempio più vicino."
+      },
+      {
+        "name": "Portale",
+        "description": "Si apre un portale verso un piano casuale."
+      },
+      {
+        "name": "Prigione astrale",
+        "description": "Un oggetto è congelato nel tempo e nello spazio all'interno di un guscio di cristallo invulnerabile."
+      },
+      {
+        "name": "Ragnatela",
+        "description": "I tuoi polsi possono lanciare ragnatele spesse."
+      },
+      {
+        "name": "Repulsione",
+        "description": "Due oggetti sono fortemente respinti magneticamente l'uno dall'altro nel raggio di 3 metri."
+      },
+      {
+        "name": "Risalita",
+        "description": "Appare una sorgente di acqua di mare."
+      },
+      {
+        "name": "Scambio",
+        "description": "Due creature che riesci a vedere si scambiano istantaneamente di posto."
+      },
+      {
+        "name": "Scambio di corpi",
+        "description": "Scambi il corpo con una creatura che tocchi. Se un corpo muore, muore anche l'altro."
+      },
+      {
+        "name": "Sciame",
+        "description": "Diventi uno stormo di corvi, uno sciame di ratti o un branco di piranha. Puoi essere danneggiato solo da attacchi di scoppio."
+      },
+      {
+        "name": "Scolpire Elementi",
+        "description": "Il materiale inanimato si comporta come l'argilla nelle tue mani."
+      },
+      {
+        "name": "Scudo",
+        "description": "Una creatura che tocchi è protetta dagli attacchi ordinari per un minuto."
+      },
+      {
+        "name": "Sfera notturna",
+        "description": "Una sfera di oscurità larga 15 metri raffigurante il cielo notturno appare davanti a voi."
+      },
+      {
+        "name": "Sigillo",
+        "description": "Sul terreno appare un cerchio d'argento di 15 metri di diametro. Scegli una specie che non può attraversarlo."
+      },
+      {
+        "name": "Smontare",
+        "description": "Qualsiasi parte del tuo corpo può essere staccata e riattaccata a volontà, senza causare dolore o danni."
+      },
+      {
+        "name": "Smorzatore Magico",
+        "description": "Tutti gli effetti magici nelle vicinanze sono dimezzati nella loro efficacia."
+      },
+      {
+        "name": "Sonno",
+        "description": "Una creatura che puoi vedere cade in un sonno leggero."
+      },
+      {
+        "name": "Spegnere",
+        "description": "La fonte di qualsiasi luce ordinaria che puoi vedere si spegne all'istante."
+      },
+      {
+        "name": "Spettacolo",
+        "description": "Appare un'illusione a tua scelta, chiaramente falsa ma impressionante, sotto il tuo controllo. Può essere grande come un palazzo e ha pieno movimento e suono."
+      },
+      {
+        "name": "Spingere/Tirare",
+        "description": "Un oggetto di qualsiasi dimensione viene tirato direttamente verso di voi o spinto direttamente via da voi con la forza di un uomo."
+      },
+      {
+        "name": "Telecinesi",
+        "description": "Puoi spostare mentalmente un oggetto sotto i 27 kg."
+      },
+      {
+        "name": "Telepatia",
+        "description": "Due creature possono sentire i pensieri gli uni degli altri, non importa quanto siano distanti."
+      },
+      {
+        "name": "Teletrasporto",
+        "description": "Un oggetto o una persona che puoi vedere viene trasportato da un posto all'altro in un raggio di 15 metri."
+      },
+      {
+        "name": "Terremoto",
+        "description": "Il terreno inizia a tremare violentemente. Le strutture possono subire danni o crollare."
+      },
+      {
+        "name": "Tocco gelido",
+        "description": "Uno spesso strato di ghiaccio si estende su una superficie toccata, fino a 3 metri di raggio."
+      },
+      {
+        "name": "Velo",
+        "description": "Una creatura che tocchi è invisibile finché non si muove."
+      },
+      {
+        "name": "Velocità",
+        "description": "La tua velocità di movimento è triplicata."
+      },
+      {
+        "name": "Viscido",
+        "description": "Ogni superficie nel raggio di 9 metri diventa estremamente scivolosa."
+      },
+      {
+        "name": "Visione",
+        "description": "Controlli completamente ciò che una creatura vede."
+      },
+      {
+        "name": "Visione del Vero",
+        "description": "Vedi attraverso tutte le illusioni vicine."
+      },
+      {
+        "name": "Vista a Raggi-XP",
+        "description": "uoi vedere attraverso i muri, la terra, i vestiti, ecc."
+      }
+    ]
+  }
+}

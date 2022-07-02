@@ -1,13 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Alegreya";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  margin: auto;
+  padding: 1em;
+  max-width: 70ch;
+  line-height: 1.3;
+  font-size: 18px;
+}
+
+a {
+  color: #7253ed;
+  text-decoration: none;
+
+  border-bottom: 1px solid #eeebee;
+}
+
+a:hover {
+  border-bottom: 1px solid #7253ed;
+}
+
+h1 {
+  font-size: 1.2em;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0.5em 0;
 }
