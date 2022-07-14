@@ -816,6 +816,7 @@
   "loadouts": [
     {
       "title": "Acrobata",
+      "number": "11",
       "equipment": [
         "Asta Bilanciata (d8, ingombrante)",
         "Chakram (d6)",
@@ -828,6 +829,7 @@
     },
     {
       "title": "Assassino",
+      "number": "12",
       "equipment": [
         "Cerbottana (d6)",
         "Garrotta",
@@ -839,6 +841,7 @@
     },
     {
       "title": "Barbaro",
+      "number": "13",
       "equipment": [
         "Tabar (d10, ingombrante)",
         "Spadone (d10, ingombrante)",
@@ -851,6 +854,7 @@
     },
     {
       "title": "Bardo",
+      "number": "14",
       "equipment": [
         "Stocco (d8)",
         "Abiti alla moda",
@@ -863,6 +867,7 @@
     },
     {
       "title": "Domatore",
+      "number": "15",
       "equipment": [
         "Lancia (d8)",
         "Coltellaccio (d6)",
@@ -875,6 +880,7 @@
     },
     {
       "title": "Mutaforma",
+      "number": "16",
       "equipment": [
         "Due pugnali (d6+d6)",
         "Vestiti poco appariscenti",
@@ -887,6 +893,7 @@
     },
     {
       "title": "Cavaliere del Caos",
+      "number": "21",
       "equipment": [
         "Alabarda (d10, ingombrante)",
         "Armatura a Piastre (3 Armatura, ingombrante)",
@@ -902,6 +909,7 @@
     },
     {
       "title": "Chierico",
+      "number": "22",
       "equipment": [
         "Martello da Guerra (d10, ingombrante)",
         "Lama Ricurva (d8)",
@@ -917,6 +925,7 @@
     },
     {
       "title": "Rabdomante",
+      "number": "23",
       "equipment": [
         "Falcetto (d6)",
         "Farsetto Patchwork (1 Armatura)",
@@ -932,6 +941,7 @@
     },
     {
       "title": "Drow (Elfo delle Profondità)",
+      "number": "24",
       "equipment": [
         "Katar (d8)",
         "Silken Mesh (1 Armatura)",
@@ -953,6 +963,7 @@
     },
     {
       "title": "Druido",
+      "number": "25",
       "equipment": [
         "Bastone da Pastore (d8, ingombrante)",
         "Vestiti di iuta",
@@ -968,6 +979,7 @@
     },
     {
       "title": "Duergar (Nano delle Profondità)",
+      "number": "26",
       "equipment": [
         "Uncino da Macellaio (d8)",
         "Frusta (d6)",
@@ -982,6 +994,7 @@
     },
     {
       "title": "Nano",
+      "number": "31",
       "equipment": [
         "Mazza (d8)",
         "Armatura a Piastre (3 Armatura, ingombrante)",
@@ -994,6 +1007,7 @@
     },
     {
       "title": "Elfo",
+      "number": "32",
       "equipment": [
         "Spada Elegante (d8)",
         "Arco Ricurvo (d8)",
@@ -1011,6 +1025,7 @@
     },
     {
       "title": "Guerriero",
+      "number": "33",
       "equipment": [
         "Falcione (d10, ingombrante)",
         "Scimitarra (d8)",
@@ -1023,6 +1038,7 @@
     },
     {
       "title": "Frate",
+      "number": "34",
       "equipment": [
         "Scettro (d6)",
         "Abiti Ingannevoli (1 Armatura)",
@@ -1035,6 +1051,7 @@
     },
     {
       "title": "Gnomo",
+      "number": "35",
       "equipment": [
         "Grossa Bomba (d8, scoppio, un utilizzo)",
         "Farsetto (1 Armatura)",
@@ -1052,6 +1069,7 @@
     },
     {
       "title": "Megera",
+      "number": "36",
       "equipment": [
         "Coltello Ricurvo (d6)",
         "Sacchetto di Erba Gatta",
@@ -1070,6 +1088,7 @@
     },
     {
       "title": "Mezzelfo",
+      "number": "41",
       "equipment": [
         "Arco (d6, ingombrante)",
         "Farsetto Imbottito (1 Armatura)",
@@ -1082,6 +1101,7 @@
     },
     {
       "title": "Halfling",
+      "number": "42",
       "equipment": [
         "Fionda (d4)",
         "Armatura di Pelle Decorata (1 Armatura)",
@@ -1094,6 +1114,7 @@
     },
     {
       "title": "Mezzorco",
+      "number": "43",
       "equipment": [
         "Ascia Robusta (d8)",
         "Balestra (d8, ingombrante)",
@@ -1106,6 +1127,7 @@
     },
     {
       "title": "Cacciatore",
+      "number": "44",
       "equipment": [
         "Arco Lungo (d10, ingombrante)",
         "Accetta (d6)",
@@ -1118,6 +1140,7 @@
     },
     {
       "title": "Illusionista",
+      "number": "45",
       "equipment": [
         "Bastone Decorato (d6)",
         "Abiti Ragguardevoli (1 Armatura)",
@@ -1138,6 +1161,7 @@
     },
     {
       "title": "Cavaliere",
+      "number": "46",
       "equipment": [
         "Spada Lunga (d8)",
         "Cotta Decorata (2 Armatura, ingombrante)",
@@ -1150,6 +1174,7 @@
     },
     {
       "title": "Ledgermain (Arcanista Bardo)",
+      "number": "51",
       "equipment": [
         "Spada Corta (d6)",
         "Brocchiero (1 Armatura)",
@@ -1168,10 +1193,10 @@
     },
     {
       "title": "Incantatore",
+      "number": "52",
       "equipment": [
         "Pugnale (d6)",
-        "Abbigliamento lacero (tasche nascoste)",
-        "2 Cappelverde"
+        "Abbigliamento lacero (tasche nascoste)"
       ],
       "spellbooks": [
         [
@@ -1182,12 +1207,14 @@
         ]
       ],
       "drugs": [
+        "cappelverde",
         "cappelverde"
       ],
       "armorValue": 1
     },
     {
       "title": "Menestrello",
+      "number": "53",
       "equipment": [
         "Fionda (d4)",
         "Daga (d6)",
@@ -1201,6 +1228,7 @@
     },
     {
       "title": "Nano Muschiato",
+      "number": "54",
       "equipment": [
         "Radice Appuntita (d6)",
         "Cotta di Pigna (1 Armatura)",
@@ -1213,6 +1241,7 @@
     },
     {
       "title": "Miconide",
+      "number": "55",
       "equipment": [
         "Mazzapicchio (d6)",
         "Guscio di Corteccia (2 Armatura)",
@@ -1227,6 +1256,7 @@
     },
     {
       "title": "Paladino",
+      "number": "56",
       "equipment": [
         "Aspersorio (d8)",
         "Spezzaspade (d6)",
@@ -1239,6 +1269,7 @@
     },
     {
       "title": "Ranger",
+      "number": "61",
       "equipment": [
         "Arco Composito (d8, ingombrante)",
         "Machete (d6)",
@@ -1251,6 +1282,7 @@
     },
     {
       "title": "Scriba (Mago)",
+      "number": "62",
       "equipment": [
         "Bacchetta di Tasso, <b><i>Pacificare</i></b> se battuta sulle dita",
         "Cartapecora e Tubo per Pergamene",
@@ -1271,6 +1303,7 @@
     },
     {
       "title": "Svirfneblin (Gnomo delle Profondità)",
+      "number": "63",
       "equipment": [
         "Azza (d6)",
         "Elmetto con Lanterna (1 Armatura, vale come una Lanterna)",
@@ -1283,6 +1316,7 @@
     },
     {
       "title": "Ladro",
+      "number": "64",
       "equipment": [
         "Due pugnali (d6+d6)",
         "Farsetto con Cappuccio (1 Armatura)",
@@ -1295,6 +1329,7 @@
     },
     {
       "title": "Carceriere",
+      "number": "65",
       "equipment": [
         "Pugnale d'Argento (d6)",
         "Bastone Alto (d8, ingombrante)",
@@ -1310,6 +1345,7 @@
     },
     {
       "title": "Woodgrue (Goblin dei Boschi)",
+      "number": "66",
       "equipment": [
         "Bastone (d6)",
         "Fionda (d4)",

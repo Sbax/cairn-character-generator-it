@@ -50,3 +50,7 @@ ul {
 .attribution {
   margin-top: 2em;
 }
+
+article {
+  max-width: 50ch;
+}

@@ -161,6 +161,26 @@ export const generateLoadout = (input) => {
     getSpellByName(getRandomFromArray(spellbook))
   );
 
+  const { drugs } = (loadout.drugs || [])
+    .map((drugName) =>
+      generator.drugs.find(
+        ({ name }) => name.toLocaleLowerCase() === drugName.toLocaleLowerCase()
+      )
+    )
+    .reduce(
+      ({ drugs }, drug) => {
+        const found = drugs.find(({ name }) => name === drug.name);
+        if (!found) {
+          drugs.push({ ...drug, amount: 1 });
+        } else {
+          found.amount += 1;
+        }
+
+        return { drugs };
+      },
+      { drugs: [] }
+    );
+
   const spellbookName = (() => {
     if (loadout.title === "Elfo") return "Runa";
     if (loadout.title === "Megera") return "Pietra del Sortilegio";
@@ -172,15 +192,12 @@ export const generateLoadout = (input) => {
     ...loadout,
     equipment: [
       ...loadout.equipment,
-      ...(spells || []).map(
-        (spell) => `${spellbookName}: <b><i>${spell.name}</i></b>`
+      ...spells.map((spell) => `${spellbookName}: <b><i>${spell.name}</i></b>`),
+      ...drugs.map(
+        (drug) => `Droga: ${drug.amount} <b><i>${drug.name}</i></b>`
       ),
     ],
     spells: [...(loadout.spells || []), ...spells.map((spell) => spell.name)],
-    drugs: (loadout.drugs || []).map((drugName) =>
-      generator.drugs.find(
-        ({ name }) => name.toLocaleLowerCase() === drugName.toLocaleLowerCase()
-      )
-    ),
+    drugs,
   };
 };
