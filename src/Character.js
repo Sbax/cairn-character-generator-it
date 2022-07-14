@@ -31,8 +31,10 @@ function Character() {
     <main>
       <h1>Generatore Personaggi per Cairn</h1>
       <p>
-        <a onClick={generateCharacterClicked}>Clicca</a> per generare un nuovo
-        personaggio.
+        <button className="link" onClick={generateCharacterClicked}>
+          Clicca
+        </button>{" "}
+        per generare un nuovo personaggio.
       </p>
       <p>
         <label>
@@ -44,7 +46,7 @@ function Character() {
           Usa i Pacchetti di Equipaggiamento
         </label>{" "}
         <small>
-          (
+          (di{" "}
           <a href="https://cairnrpg.com/hacks/third-party/fantasy-loadouts/">
             Jim Parkins
           </a>

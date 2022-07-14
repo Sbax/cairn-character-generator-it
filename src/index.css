@@ -15,7 +15,28 @@ main {
   font-size: 18px;
 }
 
-a {
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+
+  background: transparent;
+
+  color: inherit;
+  font: inherit;
+
+  line-height: normal;
+
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  -webkit-appearance: none;
+}
+
+a,
+button.link {
   color: #7253ed;
   text-decoration: none;
 
@@ -23,6 +44,7 @@ a {
   cursor: pointer;
 }
 
+button.link:hover,
 a:hover {
   border-bottom: 1px solid #7253ed;
 }

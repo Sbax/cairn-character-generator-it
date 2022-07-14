@@ -9,7 +9,7 @@ function Loadouts() {
       <h1>
         Pacchetti di Equipaggiamento Opzionali{" "}
         <small>
-          (
+          (di{" "}
           <a href="https://cairnrpg.com/hacks/third-party/fantasy-loadouts/">
             Jim Parkins
           </a>
