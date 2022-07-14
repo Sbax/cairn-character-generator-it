@@ -56,7 +56,7 @@ function Character() {
       <div className="character">
         <h1>Aspetto</h1>
         <p>
-          Sei <i>{character.name}</i>, in passato eri un {character.background}.{" "}
+          Sei <i>{character.name}</i>, in passato eri {character.background}.{" "}
           {character.traits} Hai {character.age} anni.
         </p>
 
