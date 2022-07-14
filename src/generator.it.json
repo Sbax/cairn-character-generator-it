@@ -215,7 +215,7 @@
     "armor": [
       {
         "value": 0,
-        "name": "Nessuna armatura",
+        "name": "Nessuna Armatura",
         "armorValue": 0
       },
       {
@@ -786,5 +786,541 @@
         "description": "uoi vedere attraverso i muri, la terra, i vestiti, ecc."
       }
     ]
-  }
+  },
+  "drugs": [
+    {
+      "name": "Brikabrak",
+      "description": "Tiro salvezza contro VOL o vai in confusione e pensi ad alta voce per 1d8 ore"
+    },
+    {
+      "name": "Craze",
+      "description": "Tiro salvezza contro FOR o non senti più il dolore, la fame o la stanchezza per 1d12 ore"
+    },
+    {
+      "name": "Drake",
+      "description": "Tiro salvezza contro FOR o 'godi' di una violenta psicosi per 1d4 ore"
+    },
+    {
+      "name": "Cappelverde",
+      "description": "Consuma per perdere una fatica, tiro salvezza contro VOL per evitarne la dipendenza"
+    },
+    {
+      "name": "Slicksweet",
+      "description": "Tiro salvezza contro DEX o le gambe diventano molli per un'ora"
+    },
+    {
+      "name": "Spangle",
+      "description": "Tiro salvezza contro VOL o ti disconnetti in modo zen per un giorno intero"
+    }
+  ],
+  "loadouts": [
+    {
+      "title": "Acrobata",
+      "equipment": [
+        "Asta Bilanciata (d8, ingombrante)",
+        "Chakram (d6)",
+        "Abiti esotici",
+        "Due bobine di nastri colorati da 3m",
+        "Piccola cintura",
+        "Set da tè"
+      ],
+      "armorValue": 0
+    },
+    {
+      "title": "Assassino",
+      "equipment": [
+        "Cerbottana (d6)",
+        "Garrotta",
+        "Kit di travestimento",
+        "Antitossina",
+        "Stivali imbottiti"
+      ],
+      "armorValue": 0
+    },
+    {
+      "title": "Barbaro",
+      "equipment": [
+        "Tabar (d10, ingombrante)",
+        "Spadone (d10, ingombrante)",
+        "Giaco di pelle (1 Armatura)",
+        "Elmo d'osso (1 Armatura)",
+        "Totem Aruspice",
+        "Due torce"
+      ],
+      "armorValue": 2
+    },
+    {
+      "title": "Bardo",
+      "equipment": [
+        "Stocco (d8)",
+        "Abiti alla moda",
+        "Triboli",
+        "Libro di Leggende",
+        "Cornamusa",
+        "Incenso"
+      ],
+      "armorValue": 0
+    },
+    {
+      "title": "Domatore",
+      "equipment": [
+        "Lancia (d8)",
+        "Coltellaccio (d6)",
+        "Pelliccia (1 Armatura)",
+        "Fischietto",
+        "Esca per animali",
+        "Lupo - 2 PF, 12 VOL, Morso (d6)"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Mutaforma",
+      "equipment": [
+        "Due pugnali (d6+d6)",
+        "Vestiti poco appariscenti",
+        "Mantello troppo grande",
+        "Specchio",
+        "Due bombe fumogene",
+        "Profumo"
+      ],
+      "armorValue": 0
+    },
+    {
+      "title": "Cavaliere del Caos",
+      "equipment": [
+        "Alabarda (d10, ingombrante)",
+        "Armatura a Piastre (3 Armatura, ingombrante)",
+        "Simbolo Empio (<b><i>Odio</i></b> quando immerso nel sangue)",
+        "Trappola grande",
+        "Corno tonante",
+        "Seghetto"
+      ],
+      "spells": [
+        "odio"
+      ],
+      "armorValue": 3
+    },
+    {
+      "title": "Chierico",
+      "equipment": [
+        "Martello da Guerra (d10, ingombrante)",
+        "Lama Ricurva (d8)",
+        "Cotta di Maglia (2 Armatura, ingombrante)",
+        "Guanti d'Arme (1 Armatura)",
+        "Simbolo Sacro (<b><i>Sigillo</i></b> una volta al giorno dopo una preghiera)",
+        "Mantello dell'Ordine"
+      ],
+      "spells": [
+        "sigillo"
+      ],
+      "armorValue": 3
+    },
+    {
+      "title": "Rabdomante",
+      "equipment": [
+        "Falcetto (d6)",
+        "Farsetto Patchwork (1 Armatura)",
+        "Bastone da Rabdomante",
+        "Occhio d'Agata (<b><i>Percepire Oggetto</i></b> se posizionato in acqua fresca)",
+        "Mappa usurata",
+        "Canocchiale"
+      ],
+      "spells": [
+        "Percepire Oggetto"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Drow (Elfo delle Profondità)",
+      "equipment": [
+        "Katar (d8)",
+        "Silken Mesh (1 Armatura)",
+        "Veleno Stordente",
+        "Stemma Aracnideo (<b><i>Ragnatela</i></b> se in completa oscurità)",
+        "Manette",
+        "Canocchiale"
+      ],
+      "spellbooks": [
+        [
+          "movimenti del ragno",
+          "occhio arcano"
+        ]
+      ],
+      "spells": [
+        "ragnatela"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Druido",
+      "equipment": [
+        "Bastone da Pastore (d8, ingombrante)",
+        "Vestiti di iuta",
+        "Sigillo delle Foreste Stregate (<b><i>Forma Bestiale</i></b> se esposto al sole o alla luna)",
+        "Pittura per il viso",
+        "Impiastro erbaceo",
+        "Gufo - 1 PF, 16 DES, Artigli (d4)"
+      ],
+      "spells": [
+        "Forma Bestiale"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Duergar (Nano delle Profondità)",
+      "equipment": [
+        "Uncino da Macellaio (d8)",
+        "Frusta (d6)",
+        "Cotta di Maglia lacera (1 armatura)",
+        "Catena di 3m"
+      ],
+      "drugs": [
+        "craze",
+        "brikabrak"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Nano",
+      "equipment": [
+        "Mazza (d8)",
+        "Armatura a Piastre (3 Armatura, ingombrante)",
+        "Arpa",
+        "Pinze e martello",
+        "Sacco grande",
+        "Mantice"
+      ],
+      "armorValue": 3
+    },
+    {
+      "title": "Elfo",
+      "equipment": [
+        "Spada Elegante (d8)",
+        "Arco Ricurvo (d8)",
+        "Abiti Drati (1 Armatura)",
+        "Flauto Dorato",
+        "Corta di Seta di 7.5m"
+      ],
+      "spellbooks": [
+        [
+          "Affascinare",
+          "Individuazione del Magico"
+        ]
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Guerriero",
+      "equipment": [
+        "Falcione (d10, ingombrante)",
+        "Scimitarra (d8)",
+        "Arco corto (d6)",
+        "Armatura a Strisce (1 Armatura)",
+        "Sacchetto di tabacco e pipa",
+        "Set di Dadi"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Frate",
+      "equipment": [
+        "Scettro (d6)",
+        "Abiti Ingannevoli (1 Armatura)",
+        "Censiere e acqua santa",
+        "Brocca di vino al miele",
+        "Libretto di Canzoni",
+        "Carretto (+4 slot, ingombrante)"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Gnomo",
+      "equipment": [
+        "Grossa Bomba (d8, scoppio, un utilizzo)",
+        "Farsetto (1 Armatura)",
+        "Vasetto di Colla",
+        "Pinzette di Precisione",
+        "Canocchiale"
+      ],
+      "armorValue": 1,
+      "spellbooks": [
+        [
+          "velocità",
+          "Congegno"
+        ]
+      ]
+    },
+    {
+      "title": "Megera",
+      "equipment": [
+        "Coltello Ricurvo (d6)",
+        "Sacchetto di Erba Gatta",
+        "Torta di Mirtilli",
+        "Pallina"
+      ],
+      "armorValue": 0,
+      "spellbooks": [
+        [
+          "random"
+        ]
+      ],
+      "drugs": [
+        "spangle"
+      ]
+    },
+    {
+      "title": "Mezzelfo",
+      "equipment": [
+        "Arco (d6, ingombrante)",
+        "Farsetto Imbottito (1 Armatura)",
+        "Chitarra",
+        "Gioielli falsi",
+        "Asta di 3m",
+        "Grimaldelli"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Halfling",
+      "equipment": [
+        "Fionda (d4)",
+        "Armatura di Pelle Decorata (1 Armatura)",
+        "Corno di Unicorno, soffialo per suonare una canzone che chiami aiuto. Un utilizzo.",
+        "Sacchetto di biglie",
+        "Sacchetto di tabacco e pipa",
+        "Salumi da viaggio (2 giorni di razioni)"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Mezzorco",
+      "equipment": [
+        "Ascia Robusta (d8)",
+        "Balestra (d8, ingombrante)",
+        "Corazza (2 Armatura, ingombrante)",
+        "Corda di canapa 7.5m",
+        "Stoviglie",
+        "Piede di Porco"
+      ],
+      "armorValue": 2
+    },
+    {
+      "title": "Cacciatore",
+      "equipment": [
+        "Arco Lungo (d10, ingombrante)",
+        "Accetta (d6)",
+        "Cuoio Imbottito (1 Armatura)",
+        "Trappola grande",
+        "Corno tonante",
+        "Segugio - 2 PF, 12 DES, morso (d6)"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Illusionista",
+      "equipment": [
+        "Bastone Decorato (d6)",
+        "Abiti Ragguardevoli (1 Armatura)",
+        "Olio di Fuoco",
+        "Specchio"
+      ],
+      "armorValue": 1,
+      "spellbooks": [
+        [
+          "Passaspecchi",
+          "Oggettivare"
+        ],
+        [
+          "Illusione sonora",
+          "Illusione visiva"
+        ]
+      ]
+    },
+    {
+      "title": "Cavaliere",
+      "equipment": [
+        "Spada Lunga (d8)",
+        "Cotta Decorata (2 Armatura, ingombrante)",
+        "Scudo a Goccia (1 Armatura)",
+        "Mantello Araldico",
+        "Lettera di Marca",
+        "Cavallo da Corsa (+2 slot) - 4 PF, calcio (d6)"
+      ],
+      "armorValue": 3
+    },
+    {
+      "title": "Ledgermain (Arcanista Bardo)",
+      "equipment": [
+        "Spada Corta (d6)",
+        "Brocchiero (1 Armatura)",
+        "Abiti Eleganti da Città",
+        "Liuto",
+        "Penna e Calamaio",
+        "Bastone affievolito (d8)"
+      ],
+      "spellbooks": [
+        [
+          "Leggere la Mente",
+          "Ipnotizzare"
+        ]
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Incantatore",
+      "equipment": [
+        "Pugnale (d6)",
+        "Abbigliamento lacero (tasche nascoste)",
+        "2 Cappelverde"
+      ],
+      "spellbooks": [
+        [
+          "random"
+        ],
+        [
+          "random"
+        ]
+      ],
+      "drugs": [
+        "cappelverde"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Menestrello",
+      "equipment": [
+        "Fionda (d4)",
+        "Daga (d6)",
+        "Scudo a Goccia (1 Armatura)",
+        "Ghironda",
+        "Palline da Giocoliere",
+        "Berretto Colorato",
+        "Sapone"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Nano Muschiato",
+      "equipment": [
+        "Radice Appuntita (d6)",
+        "Cotta di Pigna (1 Armatura)",
+        "Cazzuola",
+        "Barattolo di Formiche della Foresta",
+        "Fungo Velenoso",
+        "Trapano a Mano"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Miconide",
+      "equipment": [
+        "Mazzapicchio (d6)",
+        "Guscio di Corteccia (2 Armatura)",
+        "Lanterna e Olio",
+        "Incenso Esotico",
+        "Spore Convincenti"
+      ],
+      "drugs": [
+        "slicksweet"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Paladino",
+      "equipment": [
+        "Aspersorio (d8)",
+        "Spezzaspade (d6)",
+        "Cotta di Maglia (2 Armatura, ingombrante)",
+        "Sacchetto di Sale",
+        "Catena di 3m",
+        "Profumo"
+      ],
+      "armorValue": 2
+    },
+    {
+      "title": "Ranger",
+      "equipment": [
+        "Arco Composito (d8, ingombrante)",
+        "Machete (d6)",
+        "Borsa Cerata",
+        "Tenda (ingombrante, ospita due persone)",
+        "Canna da Pesca",
+        "Rete Pesata"
+      ],
+      "armorValue": 0
+    },
+    {
+      "title": "Scriba (Mago)",
+      "equipment": [
+        "Bacchetta di Tasso, <b><i>Pacificare</i></b> se battuta sulle dita",
+        "Cartapecora e Tubo per Pergamene",
+        "Penna e Calamaio",
+        "Clessidra",
+        "Lenti"
+      ],
+      "spellbooks": [
+        [
+          "confusione",
+          "Identifica Proprietario"
+        ]
+      ],
+      "spells": [
+        "pacificare"
+      ],
+      "armorValue": 0
+    },
+    {
+      "title": "Svirfneblin (Gnomo delle Profondità)",
+      "equipment": [
+        "Azza (d6)",
+        "Elmetto con Lanterna (1 Armatura, vale come una Lanterna)",
+        "Carrucola",
+        "Grasso",
+        "Lente d'Ingrandimento",
+        "Corda di canapa 7.5m"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Ladro",
+      "equipment": [
+        "Due pugnali (d6+d6)",
+        "Farsetto con Cappuccio (1 Armatura)",
+        "Grimaldelli",
+        "Triboli",
+        "Rampino",
+        "Lima di Ferro"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Carceriere",
+      "equipment": [
+        "Pugnale d'Argento (d6)",
+        "Bastone Alto (d8, ingombrante)",
+        "Mantella Pesante con Cappuccio (1 Armatura)",
+        "Talismano, <b><i>Marchio del Mago</i></b> mentre tocchi le tracce della tua preda",
+        "Aconito",
+        "Bola da Lancio"
+      ],
+      "spells": [
+        "marchio del mago"
+      ],
+      "armorValue": 1
+    },
+    {
+      "title": "Woodgrue (Goblin dei Boschi)",
+      "equipment": [
+        "Bastone (d6)",
+        "Fionda (d4)",
+        "Flauto Traverso",
+        "Fiaschetta di Alcol",
+        "Stivali Chiodati"
+      ],
+      "armorValue": 0,
+      "drugs": [
+        "Drake"
+      ]
+    }
+  ]
 }

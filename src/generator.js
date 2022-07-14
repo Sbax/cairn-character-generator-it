@@ -146,3 +146,41 @@ export const generateCharacter = () => {
     ],
   };
 };
+
+export const getSpellByName = (toFind) => {
+  if (toFind === "random") return getSpellbooks();
+  return generator.equipment.spellbooks.find(
+    ({ name }) => name.toLocaleLowerCase() === toFind.toLocaleLowerCase()
+  );
+};
+
+export const generateLoadout = (input) => {
+  const loadout = input || getRandomFromArray(generator.loadouts);
+
+  const spells = (loadout.spellbooks || []).map((spellbook) =>
+    getSpellByName(getRandomFromArray(spellbook))
+  );
+
+  const spellbookName = (() => {
+    if (loadout.title === "Elfo") return "Runa";
+    if (loadout.title === "Megera") return "Pietra del Sortilegio";
+
+    return "Libro di Incantesimi";
+  })();
+
+  return {
+    ...loadout,
+    equipment: [
+      ...loadout.equipment,
+      ...(spells || []).map(
+        (spell) => `${spellbookName}: <b><i>${spell.name}</i></b>`
+      ),
+    ],
+    spells: [...(loadout.spells || []), ...spells.map((spell) => spell.name)],
+    drugs: (loadout.drugs || []).map((drugName) =>
+      generator.drugs.find(
+        ({ name }) => name.toLocaleLowerCase() === drugName.toLocaleLowerCase()
+      )
+    ),
+  };
+};
