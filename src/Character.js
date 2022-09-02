@@ -62,7 +62,7 @@ function Character() {
 
         <h1>Attributi</h1>
         <div>
-          <b>HP:</b> {character.hp}
+          <b>PF:</b> {character.hp}
         </div>
         <div>
           <b>Armatura:</b> {loadout ? loadout.armorValue : character.armorValue}

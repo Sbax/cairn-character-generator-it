@@ -306,7 +306,7 @@
       "Asta (3m)",
       "Carrucola",
       "Repellente",
-      "Corda (7,5m)",
+      "Corda",
       "Amuleto",
       "Cannocchiale",
       "Acciarino",
@@ -328,11 +328,11 @@
       "Clessidrea",
       "Lima metallica",
       "Chiodi",
-      "Rete (7,5m)",
-      "Sega (7,5m)",
-      "Sigillante (7,5m)",
-      "Pala (7,5m)",
-      "Pinze (7,5m)"
+      "Rete",
+      "Sega",
+      "Sigillante",
+      "Pala",
+      "Pinze"
     ],
     "trinkets": [
       "Bottiglia",
@@ -350,11 +350,11 @@
       "Pennino e inchiostro",
       "Pacchetto di sale",
       "Campanella",
-      "Sapone (7,5m)",
-      "Spugna (7,5m)",
-      "Vaso di pece (7,5m)",
+      "Sapone",
+      "Spugna",
+      "Vaso di pece",
       "Spago (7,5m)",
-      "Fischietto (7,5m)"
+      "Fischietto"
     ],
     "bonus": [
       {
